@@ -6,7 +6,7 @@ const captionBox = document.getElementById('captionBox');
 const speakBtn = document.getElementById('speakBtn');
 const frequencyBar = document.getElementById('frequencyBar').querySelector('span');
 
-let apiUrl = 'http://127.0.0.1:5000'; // Replace with your Flask back-end URL
+let apiUrl = 'https://cavadan-flask-end.onrender.com'; // Replace with your Flask back-end URL
 
 imageInput.addEventListener('change', function () {
   const file = this.files[0];
